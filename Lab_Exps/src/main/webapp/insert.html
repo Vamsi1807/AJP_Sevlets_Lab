@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	.insert{
+		height:500px;
+		width:500px;
+		background-color:gold;
+		border-radius:8px;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+	.input{
+		border-radius:5px;
+		height:30px;
+		width:200px;
+		margin-top: 30px;
+	}
+	.form1{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+</style>
+</head>
+<body style="display:flex;justify-content:center;align-items:center;flex-direction:column">
+	<p>Enter values to insert...</p>
+	<div class='insert'>
+		<div class='form1'>
+		<form method='post' action='Insertion' >
+			<input type='text' placeholder='Enter your name' name='name1' class='input'><br>
+			<input type='password' placeholder='password' name='pwd' class='input'><br>
+			<input type='email' placeholder='Enter your mail id' name='mailid' class='input'><br>
+			<input type='number' placeholder='Enter your phone number' name='ph_num' class='input'><br><br>
+			<input type='submit' value='Insert' style="width:80px;margin-left:60px"><br><br>
+ 		</form>
+ 		</div>
+	</div>
+</body>
+</html>
